@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: 100%; /* Use 100% to ensure body height matches the html */
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+.player1,
+.player2 {
+  font-size: 1.5rem;
+  position: absolute;
+  margin: 0;
+}
+
+.player1 {
+  top: 0;
+  left: 5px;
+  color: white;
+  text-shadow: 0 0 0px white;
+}
+
+.player2 {
+  top: 30px;
+  left: 5px;
+  color: red;
+  text-shadow: 0 0 0px white; /* Added 0px for consistency */
+}
